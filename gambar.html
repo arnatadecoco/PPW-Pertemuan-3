@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Web dengan Gambar</title>
+    <style>
+        .gambar1 {
+            border: 2px solid black;
+        }
+        .gambar2 {
+            margin-right: 20px;
+        }
+        .katalog {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .produk {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Gambar 1</h2>
+    <img class="gambar1" src="MyCat.jpeg" alt="Gambar 1">
+    
+    <h2>Gambar 2</h2>
+    <img class="gambar2" src="MyCat.jpeg" alt="Gambar 2">
+    <img class="gambar2" src="MyCat.jpeg" alt="Gambar 2">
+    
+    <h2>Gambar 3</h2>
+    <img src="MyCat.jpeg" alt="Gambar 3" title="Ini adalah gambar kucing">
+    
+    <h2>Katalog Produk</h2>
+    <div class="katalog">
+        <div class="produk">
+            <img src="MyCat.jpeg" alt="Produk 1" width="150">
+            <p>Produk 1</p>
+        </div>
+        <div class="produk">
+            <img src="MyCat.jpeg" alt="Produk 2" width="150">
+            <p>Produk 2</p>
+        </div>
+        <div class="produk">
+            <img src="MyCat.jpeg" alt="Produk 3" width="150">
+            <p>Produk 3</p>
+        </div>
+    </div>
+</body>
+</html>
